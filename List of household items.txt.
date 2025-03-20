@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        // List of household items
+        List<string> householdItems = new List<string>()
+        {
+            "Table",
+            "Chair",
+            "Fan",
+            "Lamp",
+            "Bed"
+        };
+
+        Console.WriteLine("List of Household Items:");
+        foreach (var item in householdItems)
+        {
+            Console.WriteLine("- " + item);
+        }
+    }
+}
