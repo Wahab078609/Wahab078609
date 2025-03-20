@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-
 class Program
 {
     static void Main()
@@ -8,6 +7,7 @@ class Program
         // List of household items
         List<string> householdItems = new List<string>()
         {
+            "Shoes",
             "Table",
             "Chair",
             "Fan",
